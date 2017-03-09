@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navbar navbar-default">
+        <div class="container">
+            <a href="#" class="navbar-brand">Bootstrap</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Hello, world!</h1>
+            <p>...</p>
+            <p>
+              <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+  Launch demo modal
+</button>
+
+            </p>
+        </div>
+
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="http://brightcove04.o.brightcove.com/1745097732/1745097732_4910093273001_4a2d9a1e97676dd714de9453e2f7d39f-tmb1.jpg?pubId=1745097732" alt="...">
+              <div class="carousel-caption">
+                awesome bebe
+              </div>
+            </div>
+            <div class="item">
+              <img src="http://www11.pic-upload.de/02.10.15/a5aps84q79o9.png" alt="...">
+              <div class="carousel-caption">
+                digital crap
+              </div>
+            </div>
+            <div class="item">
+              <img src="https://i.ytimg.com/vi/TDLS9ExOaCI/maxresdefault.jpg" alt="...">
+              <div class="carousel-caption">
+                old-style
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+        <div class="row">
+            <div class="top-detail col-md-4">
+                <h2>Thing 1</h2>
+                <img src="data:image/jpeg;base64,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"
+                    alt="" class="img-responsive img-thumbnail">
+                <p>We gots the best space-vampires</p>
+            </div>
+            <div class="top-detail col-md-4">
+                <h2>Thing 2</h2>
+                <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQb_2Xs2dg6QKEV4-7Oa8Hdutimv57mXe47-80l8kFqabT02Vpk" alt="" class="img-responsive img-thumbnail">
+                <p>And the best stoners</p>
+            </div>
+            <div class="top-detail col-md-4">
+                <h2>Thing 3</h2>
+                <img class="img-responsive img-thumbnail" src="billy-the-trash-panda.png" alt="">
+                <p>And mos-def the best trash-pandas</p>
+            </div>
+        </div>
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Race</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Peter</td>
+                    <td>874</td>
+                    <td>Space-Vampire</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Josh</td>
+                    <td>20ish?</td>
+                    <td>Regular-Ass-Dude</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Billy</td>
+                    <td>5</td>
+                    <td>Trash-Panda</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingOne">
+                    <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Collapsible Group Item #1
+        </a>
+      </h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+                    <div class="panel-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                        farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                    <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Collapsible Group Item #2
+        </a>
+      </h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                    <div class="panel-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                        farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading" role="tab" id="headingThree">
+                    <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Collapsible Group Item #3
+        </a>
+      </h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                    <div class="panel-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                        farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                  <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputFile">File input</label>
+                      <input type="file" id="exampleInputFile">
+                      <p class="help-block">Example block-level help text here.</p>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox"> Check me out
+                      </label>
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+            <!-- /.modal-content -->
+        </div>
+        <!-- /.modal-dialog -->
+    </div>
+    <!-- /.modal -->
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <p class="text-muted">&copy; Created with Bootstrap 2017</p>
+        </div>
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

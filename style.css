@@ -1,0 +1,26 @@
+.top-detail{
+  text-align: center;
+};
+
+.top-detail img {
+  width: 100%;
+}
+
+.table {
+  margin-top: 50px;
+}
+
+.footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 15px;
+  margin-top: 80px;
+}
+
+.footer p {
+  margin-bottom: 0;
+}
+
+.carousel-caption {
+  color: yellow;
+}
